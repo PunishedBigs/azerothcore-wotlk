@@ -1661,6 +1661,8 @@ void TravelNodeMap::generateStartNodes()
     startNames[RACE_TAUREN] = "Tauren";
     startNames[RACE_GNOME] = "Dwarf and Gnome";
     startNames[RACE_TROLL] = "Orc and Troll";
+    startNames[RACE_GOBLIN] = "Orc and Troll";
+    startNames[RACE_HIGHELF] = "Human";
 
     for (uint32 i = 0; i < sRaceMgr->GetMaxRaces(); i++)
     {
