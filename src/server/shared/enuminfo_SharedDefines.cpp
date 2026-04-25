@@ -42,6 +42,8 @@ AC_API_EXPORT EnumText EnumUtils<Races>::ToString(Races value)
         case RACE_TROLL: return { "RACE_TROLL", "Troll", "" };
         case RACE_BLOODELF: return { "RACE_BLOODELF", "Blood Elf", "" };
         case RACE_DRAENEI: return { "RACE_DRAENEI", "Draenei", "" };
+        case RACE_GOBLIN: return { "RACE_GOBLIN", "Goblin", "" };
+        case RACE_HIGHELF: return { "RACE_HIGHELF", "High Elf", ""}
         default: throw std::out_of_range("value");
     }
 }
