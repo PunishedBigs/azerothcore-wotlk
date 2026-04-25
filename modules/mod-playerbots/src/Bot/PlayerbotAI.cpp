@@ -4353,7 +4353,7 @@ bool PlayerbotAI::canDispel(SpellInfo const* spellInfo, uint32 dispelType)
 bool IsAlliance(uint8 race)
 {
     return race == RACE_HUMAN || race == RACE_DWARF || race == RACE_NIGHTELF || race == RACE_GNOME ||
-           race == RACE_DRAENEI;
+           race == RACE_DRAENEI || race == RACE_HIGHELF;
 }
 
 Player* PlayerbotAI::FindNewMaster()
