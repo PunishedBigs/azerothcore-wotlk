@@ -2320,6 +2320,12 @@ public:
             case RACE_DRAENEI:
                 raceStr = "Draenei";
                 break;
+            case RACE_GOBLIN:
+                raceStr = "Goblin";
+                break;
+            case RACE_HIGHELF:
+                raceStr = "High Elf";
+                break;
         }
 
         switch (classid)
