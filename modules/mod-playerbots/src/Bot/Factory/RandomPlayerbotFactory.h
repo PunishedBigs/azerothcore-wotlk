@@ -41,7 +41,11 @@ public:
         TaurenMale,
         TaurenFemale,
         BloodelfMale,
-        BloodelfFemale
+        BloodelfFemale,
+        GoblinMale,
+        GoblinFemale,
+        HighelfMale,
+        HighelfFemale
     };
 
     static constexpr NameRaceAndGender CombineRaceAndGender(uint8 race, uint8 gender);
