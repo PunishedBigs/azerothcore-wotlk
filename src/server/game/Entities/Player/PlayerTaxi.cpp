@@ -67,6 +67,12 @@ void PlayerTaxi::InitTaxiNodesForLevel(uint32 race, uint32 chrClass, uint8 level
         case RACE_DRAENEI:
             SetTaximaskNode(94);
             break;     // Draenei
+        case RACE_GOBLIN:
+            SetTaximaskNode(23);
+            break;     // Goblin, copied from Orc
+        case RACE_HIGHELF:
+            SetTaximaskNode(2);
+            break;     //High Elf, copied from Human
     }
 
     // new continent starting masks (It will be accessible only at new map)
