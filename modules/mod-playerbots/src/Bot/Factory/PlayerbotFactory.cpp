@@ -3492,6 +3492,10 @@ void PlayerbotFactory::InitMounts()
             slow = {10969, 17453, 10873, 17454};
             fast = {23225, 23223, 23222};
             break;
+        case RACE_GOBLIN:
+            slow = {10969, 17453, 10873, 17454};
+            fast = {23225, 23223, 23222};
+            break;
         case RACE_TROLL:
             slow = {10796, 10799, 8395};
             fast = {23241, 23242, 23243};
@@ -3501,6 +3505,10 @@ void PlayerbotFactory::InitMounts()
             fast = {35713, 35712, 35714};
             break;
         case RACE_BLOODELF:
+            slow = {33660, 35020, 35022, 35018};
+            fast = {35025, 35025, 35027};
+            break;
+        case RACE_HIGHELF:
             slow = {33660, 35020, 35022, 35018};
             fast = {35025, 35025, 35027};
             break;
