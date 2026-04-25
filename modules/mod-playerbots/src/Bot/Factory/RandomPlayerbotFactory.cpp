@@ -30,6 +30,8 @@ constexpr RandomPlayerbotFactory::NameRaceAndGender RandomPlayerbotFactory::Comb
         case RACE_TROLL:      baseIndex = NameRaceAndGender::TrollMale; break;
         case RACE_BLOODELF:   baseIndex = NameRaceAndGender::BloodelfMale; break;
         case RACE_DRAENEI:    baseIndex = NameRaceAndGender::DraeneiMale; break;
+        case RACE_GOBLIN:     baseIndex = NameRaceAndGender::GoblinMale; break;
+        case RACE_HIGHELF:    baseIndex = NameRaceAndGender::HighelfMale; break;
         case RACE_HUMAN:
         case RACE_UNDEAD_PLAYER:
         default:
