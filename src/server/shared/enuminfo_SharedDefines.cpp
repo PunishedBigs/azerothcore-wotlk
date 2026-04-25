@@ -56,16 +56,18 @@ AC_API_EXPORT Races EnumUtils<Races>::FromIndex(std::size_t index)
 {
     switch (index)
     {
-        case 0: return RACE_HUMAN;
-        case 1: return RACE_ORC;
-        case 2: return RACE_DWARF;
-        case 3: return RACE_NIGHTELF;
-        case 4: return RACE_UNDEAD_PLAYER;
-        case 5: return RACE_TAUREN;
-        case 6: return RACE_GNOME;
-        case 7: return RACE_TROLL;
-        case 8: return RACE_BLOODELF;
-        case 9: return RACE_DRAENEI;
+        case 0:  return RACE_HUMAN;
+        case 1:  return RACE_ORC;
+        case 2:  return RACE_DWARF;
+        case 3:  return RACE_NIGHTELF;
+        case 4:  return RACE_UNDEAD_PLAYER;
+        case 5:  return RACE_TAUREN;
+        case 6:  return RACE_GNOME;
+        case 7:  return RACE_TROLL;
+        case 8:  return RACE_BLOODELF;
+        case 9:  return RACE_DRAENEI;
+        case 10: return RACE_GOBLIN;
+        case 11: return RACE_HIGHELF;
         default: throw std::out_of_range("index");
     }
 }
@@ -85,6 +87,8 @@ AC_API_EXPORT std::size_t EnumUtils<Races>::ToIndex(Races value)
         case RACE_TROLL: return 7;
         case RACE_BLOODELF: return 8;
         case RACE_DRAENEI: return 9;
+        case RACE_GOBLIN: return 10;
+        case RACE_HIGHELF: return 11;
         default: throw std::out_of_range("value");
     }
 }
